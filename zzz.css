@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+a:visited
+{
+    color:aquamarine;
+}
+a:link
+{
+    color:#23b0c9;
+}
+a:hover
+{
+    color: rgb(158, 0, 26);
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(40deg,#d2bca7,#F7DBF0);
+    color: red;
+}
+.Header >h1
+{
+    background-image: linear-gradient(yellow, red);
+    text-align: center;
+    padding: 1% 0px;
+    color:white;
+}
+div.Header
+{
+    
+    border-bottom: 5px solid orangered;
+}
+.avata
+{
+    display: inline;
+    width: 10%;
+    height: auto;
+    border: double black;
+    margin: 0px;
+    margin-right:4px;
+    float: left;
+}
+ul.informations
+{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size:30px;
+}
+ul.RealInformations
+{
+    color: black;
+    text-align: right;
+    display: inline-block;
+    font-size:30px;
+    list-style-type: none;
+}
+.SideWindow
+{
+    background-image: linear-gradient(yellow, red);
+    width: 30%;
+    float:right;
+    height: 100vh;
+}
+.MyMediaHeader
+{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+    font-style:oblique;
+}
+.ContactHeader
+{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-weight: 300;
+}
+ul.Contact
+{
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+}
+.Main{
+    text-align: center;
+}
